@@ -4,7 +4,7 @@ import { images } from '../../constants/constants';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import SectionPadding from '@/components/layout/SectionPadding';
-import ImageModal from '../../components/gallery/imageModal';
+import ImageModal from '../../components/gallery/ImageModal';
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
